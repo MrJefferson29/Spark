@@ -24,7 +24,7 @@ const RegisterScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://albatross-server.onrender.com/auth/register",
+        "https://spark-5om3.onrender.com/auth/register",
         {
           username,
           email,

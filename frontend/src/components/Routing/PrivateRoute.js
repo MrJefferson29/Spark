@@ -21,7 +21,7 @@ const PrivateRoute =( ) => {
             },
         };
         try {
-            const { data } = await axios.get("https://albatross-server.onrender.com/auth/private", config); 
+            const { data } = await axios.get("https://spark-5om3.onrender.com/auth/private", config); 
 
             setAuth(true)
             setActiveUser(data.user)

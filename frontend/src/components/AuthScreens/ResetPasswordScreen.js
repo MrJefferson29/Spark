@@ -25,7 +25,7 @@ const ResetPasswordScreen = () => {
 
     try {
       const { data } = await axios.put(
-        `https://albatross-server.onrender.com/auth/resetpassword?resetPasswordToken=${token}`,
+        `https://spark-5om3.onrender.com/auth/resetpassword?resetPasswordToken=${token}`,
         {
           password,
         }

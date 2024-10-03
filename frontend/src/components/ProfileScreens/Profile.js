@@ -29,7 +29,7 @@ const Profile = () => {
             setLoading(true)
 
             try {
-                const { data } = await axios.get("https://albatross-server.onrender.com/user/profile", config)
+                const { data } = await axios.get("https://spark-5om3.onrender.com/user/profile", config)
 
                 setUser(data.data)
 

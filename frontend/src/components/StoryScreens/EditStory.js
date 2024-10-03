@@ -33,7 +33,7 @@ const EditStory = () => {
         const getStoryInfo = async () => {
             setLoading(true)
             try {
-                const { data } = await axios.get(`https://albatross-server.onrender.com/story/editStory/${slug}`, config)
+                const { data } = await axios.get(`https://spark-5om3.onrender.com/story/editStory/${slug}`, config)
                 setStory(data.data)
                 setTitle(data.data.title)
                 setAge(data.data.age)
@@ -67,7 +67,7 @@ const EditStory = () => {
         formdata.append("previousImage", previousImage)
 
         try {
-            const { data } = await axios.put(`https://albatross-server.onrender.com/story/${slug}/edit`, formdata, config)
+            const { data } = await axios.put(`https://spark-5om3.onrender.com/story/${slug}/edit`, formdata, config)
 
             setSuccess('Edit Story successfully ')
 

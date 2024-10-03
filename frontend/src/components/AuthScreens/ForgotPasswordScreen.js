@@ -13,7 +13,7 @@ const ForgotPasswordScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://albatross-server.onrender.com/auth/forgotpassword",
+        "https://spark-5om3.onrender.com/auth/forgotpassword",
         { email }
       );
 

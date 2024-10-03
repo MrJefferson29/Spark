@@ -21,7 +21,7 @@ const ReadListPage = () => {
             setLoading(true)
 
             try {
-                const { data } = await (await axios.get(`https://albatross-server.onrender.com/user/readList`, config)).data
+                const { data } = await (await axios.get(`https://spark-5om3.onrender.com/user/readList`, config)).data
                 setReadList(data)
                 setLoading(false)
             }

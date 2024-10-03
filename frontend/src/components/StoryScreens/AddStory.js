@@ -49,7 +49,7 @@ const AddStory = () => {
         };
 
         try {
-            const { data } = await axios.post("https://albatross-server.onrender.com/story/addstory", formData, config);
+            const { data } = await axios.post("https://spark-5om3.onrender.com/story/addstory", formData, config);
             setSuccess('Story added successfully');
             clearInputs();
 

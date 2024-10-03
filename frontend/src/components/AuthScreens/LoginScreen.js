@@ -14,7 +14,7 @@ const LoginScreen = () => {
 
     try {
       const { data } = await axios.post(
-        "https://albatross-server.onrender.com/auth/login",
+        "https://spark-5om3.onrender.com/auth/login",
         { email, password }
       );
       localStorage.setItem("authToken", data.token);
